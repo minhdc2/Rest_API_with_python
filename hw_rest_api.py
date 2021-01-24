@@ -31,7 +31,6 @@ class command(Resource):
                 for i in range(ln-1):
                     if seq[i] > seq[i+1]:
                         seq[i], seq[i+1] = seq[i+1], seq[i]
-                    k = k + 1
             return seq
 
         def quantile_calc(seq, perc):
@@ -52,5 +51,6 @@ api.add_resource(command, '/example')
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 
