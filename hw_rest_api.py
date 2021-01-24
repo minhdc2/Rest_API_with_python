@@ -4,8 +4,6 @@ import random
 app = Flask(__name__)
 api = Api(app)
 
-example = []
-
 class command(Resource):
 
     def post(self):
