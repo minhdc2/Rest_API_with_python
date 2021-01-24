@@ -13,7 +13,7 @@ Local host environment
 Ex1: {'pool': [1,7,2,6], 'percentile': 99.5} 
 	
 	python hw_rest_api_post.py
-	![Local_host](./Pic/Local_host.png)
+	![Local_host](./Pic/Local_host.PNG)
 	
 	python hw_rest_api_get.py
 
