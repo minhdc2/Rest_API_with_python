@@ -10,7 +10,7 @@ Local host environment
 
 Ex1: {'pool': [1,7,2,6], 'percentile': 99.5} \n
 	python hw_rest_api_post.py
-	![](F:\Techcombank\Homework\Pic\Local_host.PNG)
+	![Local_host.PNG](attachment:Local_host.PNG)
 	
 	python hw_rest_api_get.py
 
